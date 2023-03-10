@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    background: #E4E4E4;
+}
+
+header {
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.logo-image {
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #18162D;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    color: #3579f4;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+}
+
+.brands-bg {
+    width: 41px;
+    height: 41px;
+    background: #3579F4;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 12.14px;
+}
+
+.icons {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.based-color1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    color: #18162D;
+    margin-bottom: 35px;
+}
+
+.based-color2 {
+    color: #3579f4;
+    margin-bottom: 35px;
+}
+
+.ship {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #18162D;
+    margin-bottom: 55px;
+}
+
+.primary {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3579F4;
+    border-radius: 10px;
+    padding: 24px 60px;
+    border: none;
+    outline: none;
+}
+
+.main-image {
+    position: relative;
+    right: 267px;
+}
+
+.services {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3579F4;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.card1 {
+    background: #FFFFFF;
+    box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.bg1 {
+    background-image: url(./img/Mask\ group\ \(0\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 9px;
+    padding: 40px 90px 203px 29px;
+    width: 100%;
+}
+
+.bg2 {
+    background-image: url(./img/Mask\ group\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding: 40px 56px 223px 31px;
+    width: 100%;
+}
+
+.bg3 {
+    background-image: url(./img/Mask\ group\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 15px -15px;
+    padding: 40px 359px 223px 27px;
+    width: 100%;
+}
+
+.bg4 {
+    background-image: url(./img/Mask\ group\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 13.5px;
+    padding: 35px 372px 229px 29px;
+    width: 100%;
+}
+
+.bg5 {
+    background-image: url(./img/Mask\ group\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 14px;
+    padding: 27px 94px 208.5px 28px;
+    width: 100%;
+}
+
+.bg6 {
+    background-image: url(./img/Mask\ group\ \(5\).png);
+    background-size: cover;
+    background-color: #3579F4;
+    background-repeat: no-repeat;
+    background-position: 14px;
+    padding: 35px 134px 200.5px 28px;
+    width: 100%;
+}
+
+.bg7 {
+    background-image: url(./img/Mask\ group\ \(6\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 14px;
+    padding: 36px 103px 171px 29px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.bg8 {
+    background-image: url(./img/Mask\ group\ \(7\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 13px 18px;
+    padding: 36px 88px 229px 31px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.bg9 {
+    background-image: url(./img/Mask\ group\ \(8\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -12px 2px;
+    padding: 36px 337px 200px 27px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.buying {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #18162D;
+}
+
+.buying1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.more {
+    padding: 24px 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #8C8C8C;
+    background: #F0F0FA;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 141px;
+}
+
+.works {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    color: #18162D;
+    margin-bottom: 65px;
+}
+
+.card-image {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #3579F4;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.card-txt {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #18162D;
+    margin-bottom: 20px;
+}
+
+.card-poragraf {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(24, 22, 45, 0.7);
+}
+
+main {
+    margin-top: 115px;
+    background: #3579F4;
+    border-radius: 50px 50px 0px 0px;
+    padding-top: 92px;
+    padding-bottom: 160px;
+    position: relative;
+    top: 50px;
+    z-index: 5;
+}
+
+.main-img {
+    position: relative;
+    top: 50px;
+    right: -112px;
+}
+
+.contact {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.information {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 35px;
+}
+
+input {
+    font-family: 'Inter';
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 20px 20px 20px 30px;
+    background: #5591FF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+textarea {
+    font-family: 'Inter';
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 20px 20px 61px 30px;
+    background: #5591FF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    margin-bottom: 35px;
+}
+
+label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 20px;
+}
+
+.send-btn {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #8C8C8C;
+    padding: 20px 129px;
+    background: #F0F0FA;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    padding-top: 56.5px;
+    background: #18162D;
+    border-radius: 50px 50px 0px 0px;
+    z-index: 10;
+    position: relative;
+}
+
+.copyright {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 172.87px;
+    margin-bottom: 41px;
+}
+
+.list-item2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.list-item2:hover {
+    color: #3579f4;
+}
+
+.footer-icons1,
+.footer-icons2 {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-icons1 {
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.footer-icons2 {
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+.footer-icons1:hover,
+.footer-icons2:hover {
+    color: #3579f4;
+}
+
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3579f4;
+}
+
+.phone-number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+
+    header {
+        margin-bottom: 80px;
+    }
+
+    .logo-image,
+    .logo {
+        width: 100%;
+    }
+
+    .brands-bg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .based-color1,
+    .based-color2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .ship {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .primary {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .main-image,
+    .img {
+        right: 0;
+        width: 100%;
+    }
+
+    .services {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .bg1,
+    .bg2,
+    .bg4,
+    .bg5,
+    .bg7,
+    .bg8 {
+        margin-bottom: 1.5rem;
+    }
+
+    .bg1,
+    .bg2,
+    .bg5,
+    .bg6,
+    .bg7 {
+        width: 294px;
+        height: 310px;
+        padding: 36px 0 0 27px;
+        background-position: left;
+    }
+
+    .bg3,
+    .bg4 {
+        width: 294px;
+        height: 310px;
+        padding: 36px 0 0 27px;
+        background-position: center -14px;
+    }
+
+    .bg8 {
+        width: 294px;
+        height: 310px;
+        padding: 36px 0 0 27px;
+        background-position: -3px 23px;
+    }
+
+    .bg9 {
+        width: 294px;
+        height: 310px;
+        padding: 36px 0 0 27px;
+        background-position: -140px -3px;
+    }
+
+    .more {
+        font-size: 16px;
+        padding: 24px 50px;
+        margin-bottom: 120px;
+    }
+
+    .works {
+        font-size: 34px;
+        margin-bottom: 35px;
+    }
+
+    .icon-card {
+        margin-bottom: 60px;
+    }
+
+    main {
+        margin-top: 0;
+        border-radius: 35px 35px 0px 0px;
+    }
+
+    .send-btn {
+        padding: 20px;
+    }
+
+    .main-img {
+        right: 0;
+    }
+
+    footer {
+        border-radius: 35px 35px 0px 0px;
+    }
+
+    .footer-logo,
+    .footer-img {
+        width: 100%;
+    }
+
+    .list-item2 {
+        text-align: center;
+    }
+
+    .tac {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info,
+    .phone-number {
+        display: flow-root;
+        text-align: center;
+    }
+
+    .phone-number {
+        margin-bottom: 40px;
+    }
+
+    .footer-icons2 {
+        font-size: 33px;
+        margin-bottom: 5px;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 100px;
+    }
+}
